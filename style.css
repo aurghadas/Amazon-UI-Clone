@@ -1,36 +1,41 @@
+/* Reset default margin, set font, and include padding/border in width */
 *{
     margin: 0;
     font-family: Arial;
     box-sizing: border-box; /* This property sets the border within the width of the element, so if we increase the width of the border, the element's content will shrink */
 }
 
+/* Navbar Section */
 .navbar {
     height: 60px;
     width: 100%;
     background-color: #0f1111;
     color: white;
     display: flex;
-    align-items: center; /* vertically center items */
+    align-items: center; 
     justify-content: space-evenly;
-    padding-left: 10px;  /* optional, space from the left edge */
+    padding-left: 10px;  
 }
 
+/* Logo container */
 .nav-logo {
-    width: 120px;         /* 👈 a bit wider */
-    height: 50px;         /* 👈 taller */
+    width: 120px;        
+    height: 50px;        
     display: flex;
-    align-items: flex-start; /* align logo at top if needed */
-    padding-top: 5px;     /* 👈 moves the logo a bit down */
+    align-items: flex-start; 
+    padding-top: 5px;   
 }
 
+/* Amazon logo image as background */
 .logo {
     background-image: url("images/amazon-logo.png");
-    background-size: contain; /* ensures the logo fits within the div */
+    background-size: contain; 
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
 
+/* Adds hover border effect for interactive elements */
 .border {
     border: 1.5px solid transparent;
 }
@@ -39,17 +44,15 @@
     border: 1.5px solid white; 
 }
 
-
-/* Box 2 */
-
+/* Box 2 - Address */
 .add-first {
    color: #CCCCCC;
-   font-size: 0.85rem; /* Use rem for better scaling */
-   margin-left: 15px; /* Add some space from the left edge */
+   font-size: 0.85rem; 
+   margin-left: 15px; 
 }
 
 .add-second {
-    font-size: 1rem; /* Use rem for better scaling */
+    font-size: 1rem; 
     margin-left: 3px;;
 }
 
@@ -62,8 +65,7 @@
     margin-left: 14px;;
 }
 
-
-/* Box 3 */
+/* Box 3 - Search Bar */
 .nav-search {
     display: flex;
     justify-content: space-evenly;
@@ -100,12 +102,12 @@
     color: #0f1111;
 }
 
+/* Adds orange border on hover */
 .nav-search:hover {
     border: 2px solid orange;
 }
 
-
-/* Box 4 */
+/* Box 4 - Account section */
 span {
     font-size: 0.7rem;
 }
@@ -115,8 +117,7 @@ span {
     font-weight: 700;
 }
 
-
-/* Box 6 */
+/* Box 6 - Cart */
 .nav-cart i{
 font-size: 30px;
 }
@@ -126,9 +127,7 @@ font-size: 30px;
     font-weight: 700;
 }
 
-
-/* Panel */
-
+/* Panel Section */
 .panel {
     height: 40px;
     background-color: #222f3d;
@@ -153,7 +152,6 @@ font-size: 30px;
     font-weight: 700;
 }
 
-
 /* Hero Section */
 .hero-section {
     background-image: url("images/hero-section-image.jpg");
@@ -164,6 +162,7 @@ font-size: 30px;
     align-items: flex-end;
 }
 
+/* Hero message text */
 .hero-message{
     background-color: white;
     color: black;
@@ -179,7 +178,6 @@ font-size: 30px;
 .hero-message a{
     color: #007185;
 }
-
 
 /* Shop Section */
 .shop-section {
@@ -213,6 +211,7 @@ margin-bottom: 1rem;
     color: #007185;
 }
 
+/* Individual image size adjustments */
 .box1 .box-image {
     height: 280px;
     background-size: cover; 
@@ -256,12 +255,12 @@ margin-bottom: 1rem;
     background-size: cover; 
 }
 
-
 /* Footer Section */
 .footer{
     margin-top: 15px;
 }
 
+/* Back to top */
 .foot-panel1{
     background-color: #37475a;
     color: white;
@@ -273,6 +272,7 @@ margin-bottom: 1rem;
 
 }
 
+/* Footer links */
 .foot-panel2{
     background-color: #222f3d;
     color: white;
@@ -292,6 +292,7 @@ ul a{
     color: #dddddd
 }
 
+/* Footer logo panel */
 .foot-panel3{
     background-color: #222f3d;
     border-top: 0.5px solid white;
@@ -303,12 +304,13 @@ ul a{
 
 .foot-logo{
     background-image: url("images/amazon-logo.png");
-    background-size: contain; /* ensures the logo fits within the div */
+    background-size: contain; 
     background-repeat: no-repeat;
     width: 5%;
     height: 50%;
 }
 
+/* Copyright info */
 .foot-panel4{
     background-color: #0f1111;
     color: white;
