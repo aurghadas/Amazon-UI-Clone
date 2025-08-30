@@ -37,10 +37,10 @@ Each section is styled to closely resemble Amazon’s UI, with hover effects, fl
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/amazon-clone-project.git
+   git clone https://github.com/aurghadas/Amazon-UI-Clone.git
 2. Navigate to the project directory:
    ```bash
-    cd amazon-clone-project
+    cd Amazon-UI-Clone
 3. Open the HTML file in your browser:
    
 You can double-click structure.html, or
