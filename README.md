@@ -25,6 +25,29 @@ Each section is styled to closely resemble Amazon’s UI, with hover effects, fl
 
 ---
 
+## 🛠️ Built With
+
+- **HTML5** – Markup language for structuring the webpage  
+- **CSS3** – Styling and layout  
+- **Font Awesome** – Icon library for UI elements
+
+---
+
+## How to run the code?
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/amazon-clone-project.git
+2. Navigate to the project directory:
+   ```bash
+    cd amazon-clone-project
+3. Open the HTML file in your browser:
+   
+You can double-click structure.html, or
+Use a live server extension if you're using VS Code for real-time updates.
+
+---
+
 ## 📂 Folder Structure
 
 ```text
