@@ -4,7 +4,7 @@ This project is a front-end clone of the **Amazon** homepage, built using **HTML
 
 The goal of this project is to practice responsive web design, layout structuring, and styling techniques using pure HTML and CSS. It also integrates **Font Awesome** for iconography and uses a modular image folder for clean asset management.
 
-----
+---
 
 ## 🚀 Features Implemented
 
